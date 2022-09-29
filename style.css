@@ -1,0 +1,85 @@
+html {
+  --primary: #076d4d;
+  --light: #cde1db;
+  --body-text-color: #212529;
+  --body-color: white;
+  --border-color: grey;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  background-color: var(--body-color);
+  color: var(--body-text-color);
+  margin: 4rem 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+caption {
+  font-size: .75rem;
+  margin-top: 1rem;
+  caption-side: bottom;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
+}
+
+h1 {
+  line-height: 3rem;
+}
+
+h2 {
+  line-height: 2.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 2rem;
+  vertical-align: top;
+  border: 1px solid var(--border-color);
+  border-collapse: collapse;
+  caption-side: bottom;
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+th {
+  background-color: var(--light);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 1rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
